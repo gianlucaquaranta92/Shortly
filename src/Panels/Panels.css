@@ -1,0 +1,9 @@
+.imgContainer {
+  background-color: hsl(257, 27%, 26%);
+  border-radius: 50%;
+  width: 80px;
+  margin-top: -40px;
+  margin-left: 20px;
+  margin-bottom: 15px;
+  padding: 13px;
+}
