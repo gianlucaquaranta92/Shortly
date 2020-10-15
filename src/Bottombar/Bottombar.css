@@ -5,4 +5,6 @@
   text-align: center;
   padding: 50px;
   background-image: url("https://cdn.discordapp.com/attachments/165746589309206528/721009518279917598/bg-boost-desktop.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }

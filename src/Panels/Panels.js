@@ -4,17 +4,15 @@ import "./Panels.css";
 export function Panels() {
   return (
     <div className="container" style={{ marginTop: 50 }}>
-      <div className="row" style={{ height: 100 % "" }}>
+      <div className="row" style={{}}>
         <div
           style={{
             backgroundColor: "white",
-            height: 250,
-
-            margin: 23,
+            margin: "30px 23px 100px 23px",
             borderRadius: 5,
             textAlign: "left"
           }}
-          className="col-sm align-self-start"
+          className="col-sm align-self-start panels"
         >
           <img
             className="imgContainer"
@@ -22,7 +20,7 @@ export function Panels() {
             src="https://cdn.discordapp.com/attachments/165746589309206528/720996357724438538/Senza_titolo-1.png"
           />
 
-          <div style={{}}>
+          <div>
             <h1 style={{ fontSize: 18 }}>Brand Recognition</h1>
             <p style={{ fontSize: 13 }}>
               Boost your brand recognition with each click.Generic links don't
@@ -31,22 +29,20 @@ export function Panels() {
           </div>
         </div>
         <div
+          className="col-sm align-self-center panels"
           style={{
             backgroundColor: "white",
-            height: 250,
-
-            margin: 23,
+            margin: "30px 23px 50px 23px",
             borderRadius: 5,
             textAlign: "left"
           }}
-          className="col-sm align-self-center"
         >
           <img
             className="imgContainer"
             alt=""
             src="https://cdn.discordapp.com/attachments/165746589309206528/722095298813624420/icona2.png"
           />
-          <div style={{}}>
+          <div>
             <h1 style={{ fontSize: 18 }}>Brand Recognition</h1>
             <p style={{ fontSize: 13 }}>
               Gain insights into who is clicking your links.Knowing when and
@@ -58,20 +54,19 @@ export function Panels() {
         <div
           style={{
             backgroundColor: "white",
-            height: 250,
 
-            margin: 23,
+            margin: "70px 23px 50px 23px",
             borderRadius: 5,
             textAlign: "left"
           }}
-          className="col-sm align-self-end"
+          className="col-sm align-self-end panels"
         >
           <img
             className="imgContainer"
             alt=""
             src="https://cdn.discordapp.com/attachments/165746589309206528/720996357724438538/Senza_titolo-1.png"
           />
-          <div style={{}}>
+          <div>
             <h1 style={{ fontSize: 18 }}>Brand Recognition</h1>
             <p style={{ fontSize: 13 }}>
               Improve brand awareness and content discoverability through

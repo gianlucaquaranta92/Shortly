@@ -17,7 +17,7 @@ export function SearchBar() {
   };
 
   return (
-    <div style={{ marginBottom: 100 }}>
+    <div className="container" style={{ marginBottom: 100 }}>
       <form onSubmit={handleSubmit(onSubmit)}>
         <div
           className="row"
@@ -34,7 +34,7 @@ export function SearchBar() {
             padding: 20
           }}
         >
-          <div className="col-sm col-lg-9">
+          <div className="col-sm col-lg">
             <div>
               <input
                 className={errors.textInput ? "error" : ""}

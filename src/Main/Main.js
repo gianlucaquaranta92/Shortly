@@ -11,19 +11,18 @@ export function Main() {
         marginBottom: 90
       }}
     >
-      <div className="col-sm col-lg-1" />
-      <div className="col-sm- col-lg-6" style={{ textAlign: "left" }}>
+      <div className="col-sm col-lg-6" style={{ textAlign: "left" }}>
         <h1 style={{ fontSize: 60 }}>More then just shorter links</h1>
 
         <p>
           Build your brand's recognition and get detailed <br />
           insights on how your links are performing.
         </p>
-        <button style={{ marginLeft: 25, outline: "none", marginTop: 25 }}>
+        <button style={{ marginLeft: 15, outline: "none", marginTop: 25 }}>
           Get started
         </button>
       </div>
-      <div className="col-sm col-lg-5" style={{}}>
+      <div className="col-sm col-lg-6" style={{}}>
         <div className="overflow-hidden">
           <img
             style={{ height: 400, width: 550 }}
