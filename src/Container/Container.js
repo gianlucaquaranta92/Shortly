@@ -1,5 +1,5 @@
 import React from "react";
-import "./Container.css";
+
 import { Bar } from "../Bar/Bar";
 import { Main } from "../Main/Main";
 import { SearchBar } from "../Searchbar/Searchbar";
@@ -9,8 +9,8 @@ import { Blackbar } from "../Blackbar/Blackbar";
 
 export function Container() {
   return (
-    <div className="container">
-      <div>
+    <div>
+      <div className="container">
         <Bar />
         <Main />
       </div>
@@ -20,10 +20,10 @@ export function Container() {
           backgroundColor: "hsl(257, 12%, 92%)"
         }}
       >
-        <div className="row">
+        <div className="row nopadding">
           <div className="col" />
           <div style={{ textAlign: "center" }} className="col-10">
-            <div className="searchbar">
+            <div className=" container">
               <SearchBar />
             </div>
 
@@ -38,7 +38,7 @@ export function Container() {
         </div>
         <Bottombar />
         <div style={{ backgroundColor: "hsl(260, 8%, 14%)" }}>
-          <div className="row">
+          <div className="row nopadding">
             <div className="col" />
             <div className="col-10" style={{ marginTop: 60 }}>
               <Blackbar />

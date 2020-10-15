@@ -54,13 +54,41 @@ h3 {
   z-index: -2;
 }
 
-@media (max-width: 600px) {
+.panels {
+  height: 200px;
+}
+.nopadding {
+  padding: 0px !important;
+  margin: 0px !important;
+}
+@media (max-width: 1000px) {
   .barLinks {
     display: none;
   }
 
   .mobileMenu {
     display: block;
+  }
+  .panels {
+    text-align: center !important;
+    height: 280px;
+  }
+  .imgContainer {
+    margin-left: 0px !important;
+  }
+}
+
+@media (max-width: 765px) {
+  .panels {
+    text-align: center !important;
+  }
+  .imgContainer {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 600px) {
+  .imgContainer {
+    margin-left: 0px !important;
   }
   .barmenu {
     color: white;
@@ -73,7 +101,10 @@ h3 {
     font-size: 18px;
     text-align: center;
   }
-
+  .panels {
+    height: 240px;
+    text-align: center !important;
+  }
   .list {
     padding: 20px 50px;
     margin: 0 auto;

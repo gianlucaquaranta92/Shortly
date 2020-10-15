@@ -1,12 +1,11 @@
 import React from "react";
-import "./Bar.css";
+
 import { BarMenu } from "./BarMenu";
 
 export function Bar() {
   return (
     <div className="container" style={{ marginTop: 50 }}>
       <div className="row">
-        <div className="col-lg-1" />
         <div
           className="col-lg-2"
           style={{
@@ -36,7 +35,7 @@ export function Bar() {
           <p className="barLinks">Resources</p>
         </div>
         <div
-          className="col-lg-5"
+          className="col-lg-6"
           style={{
             display: "flex",
             flexWrap: "wrap",

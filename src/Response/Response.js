@@ -25,7 +25,7 @@ export function ShortUrlInfo(props) {
         <div className="col-6">
           <h3
             style={{
-              width: 300,
+              width: 240,
               whiteSpace: "nowrap",
               overflow: "hidden",
               textOverflow: "ellipsis"

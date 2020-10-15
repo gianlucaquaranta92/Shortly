@@ -1,9 +1,9 @@
 import React from "react";
-import "./Blackbar.css";
 
 export function Blackbar() {
   return (
     <div
+      className="container"
       style={{
         display: "flex",
         color: "white",
